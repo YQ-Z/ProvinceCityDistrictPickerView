@@ -7,7 +7,8 @@ Pod::Spec.new do |s|
   s.author       = { "YQ-Z" => "449115125@qq.com" }
   s.ios.deployment_target = "8.0"
   s.source       = { :git => "https://github.com/YQ-Z/ProvinceCityDistrictPickerView.git", :tag => s.version }
-  s.source_files = 'YQPCDPickerViewSample/ProvinceCityDistrict'
+  s.source_files = 'YQPCDPickerViewSample/ProvinceCityDistrict/*.{ h, m}'
+  s.source_files = 'YQPCDPickerViewSample/ProvinceCityDistrict/*.plist'
   s.requires_arc = true
 
 end
